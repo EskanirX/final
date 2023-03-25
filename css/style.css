@@ -1,0 +1,80 @@
+/* header */
+body{
+    background-image: linear-gradient(#323E2A,#101815);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    padding-inline: 100px;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 517px;
+    width: 100%;
+    height: 100%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ul-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+a{
+    color: #FC4308;
+}
+.contact{
+    border: 1px solid #FC4308;
+    padding: 10px 16px;
+    border-radius: 3px;
+}
+.text-div{
+    max-height: 680px;
+    height: 100%;
+    max-width: 680px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.text-h2{
+    font-size: 100px;
+    line-height: 105px;
+    color: #FC4308;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+}
+.text-p{
+    line-height: 24px;
+    color: #FC4308;
+    text-align: left;
+    max-width: 430px;
+    width: 100%;
+    padding: 24px 0;
+}
+.pic-div{
+    display: flex;
+    max-width: 496px;
+    width: 100%;
+    margin-top: 80px;
+}
+.Projects{
+    margin-inline: 120px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
