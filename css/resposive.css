@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1024px){
+    .box-wraper{
+        flex-direction: column;
+    }
+    .box-2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .our-work-h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-div{
+        justify-content: center;
+    }
+    .header{
+        padding-inline: 40px;
+    }
+    .pic-div {
+        max-width: 300px;
+        padding-right: 15px;
+    }
+    .footer{
+        padding-inline: 30px;
+    }
+    .text-h2{
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .middle{
+        padding-left: 10px;
+    }
+    .text-div{
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .bottom{
+        display: none;
+    }
+    .nav-div{
+        display: none;
+    }
+    .burger{
+        cursor: pointer;
+        display: block;
+        color: #fc4308;
+        font-size: 30px;
+    }
+    .text-h2{
+        font-size: 50px;
+        line-height: 55px;
+        max-width: 600px;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .second{
+        flex-direction: column;
+    }
+    .fashon-text{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .Projects{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fine-art-h2{
+        font-size: 40px;
+    }
+    .text-div{
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-div{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .footer-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .contact-h2{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .header{
+        padding-inline: 10px;
+    }
+    .text-h2{
+        font-size: 40px;
+        line-height: 45px;
+        max-width: 400px;
+        text-align: center;
+    }
+}

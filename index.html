@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capture Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <link rel="icon" href="images/Logo.svg" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -16,14 +26,23 @@
       <div class="nav-div">
         <nav class="navigation">
           <ul class="ul-item">
-            <li class="li-item"><a href="">Projects</a></li>
-            <li class="li-item"><a href="">Portraits</a></li>
-            <li class="li-item"><a href="">Fashion</a></li>
-            <li class="li-item"><a href="">Fine Art</a></li>
-            <li class="li-item contact"><a href="">Contact</a></li>
+            <li class="li-item">
+              <a class="a-itme" href="#Projects">Projects</a>
+            </li>
+            <li class="li-item">
+              <a class="a-itme" href="#Our-work">Portraits</a>
+            </li>
+            <li class="li-item">
+              <a class="a-itme" href="#Fashion">Fashion</a>
+            </li>
+            <li class="li-item">
+              <a class="a-itme" href="#Fine-Art">Fine Art</a>
+            </li>
+            <a href="#Contact"><button class="contact btn1">Contact</button></a>
           </ul>
         </nav>
       </div>
+      <i class="fa-solid fa-bars burger"></i>
     </header>
     <section id="Projects">
       <div class="Projects">
@@ -38,9 +57,168 @@
           <img src="images/[A]--Round Button.svg" alt="icon" />
         </div>
         <div class="pic-div">
-          <img src="images/Column.svg" alt="picture of girl with flowers" />
+          <img
+            class="projects-img"
+            src="images/Column.svg"
+            alt="picture of girl with flowers"
+          />
         </div>
       </div>
     </section>
+    <section id="Our-work">
+      <h2 class="our-work-h2">Our work</h2>
+      <div class="box-wraper">
+        <div class="box-1">
+          <img
+            class="img-wraper"
+            src="images/our work1.png"
+            alt="aisha patel"
+          />
+          <p class="box-p">2018</p>
+          <h5 class="box-h5">Aisha Patel</h5>
+        </div>
+        <div class="box-2">
+          <img
+            class="img-wraper"
+            src="images/our work2.png"
+            alt="isbella costa"
+          />
+          <p class="box-p">2021</p>
+          <h5 class="box-h5">Isabella costa</h5>
+        </div>
+        <div class="box-3">
+          <img
+            class="img-wraper"
+            src="images/our work3.png"
+            alt="fatima hassan"
+          />
+          <p class="box-p">2022</p>
+          <h5 class="box-h5">Fatima Hassan</h5>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button class="btn btn1">Viwe all work</button>
+      </div>
+    </section>
+    <section id="Fashion">
+      <div class="main-container">
+        <div class="container">
+          <div class="fashon-text">
+            <p class="fashon-p">March 2022</p>
+            <h2 class="fashon-h2">Gabriela Silva</h2>
+            <p class="fashon-p2">
+              Cras semper auctor neque vitae tempus. Neque volutpat ac tincidunt
+              vitae. Eros donec ac odio tempor orci dapibus ultrices. Eget
+              mauris pharetra et ultrices neque ornare. Metus aliquam eleifend
+              mi in nulla posuere sollicitudin aliquam. Nunc id cursus metus
+              aliquam eleifend mi.
+            </p>
+            <button class="fashon-btn btn1">View case study</button>
+          </div>
+          <div class="fashon-img">
+            <img
+              class="fashon-imgs"
+              src="images/fashin1.png"
+              alt="gabriela silva"
+            />
+          </div>
+        </div>
+        <div class="container second">
+          <div class="fashon-img">
+            <img
+              class="fashon-imgs"
+              src="images/fashon2.png"
+              alt="amara lopez"
+            />
+          </div>
+          <div class="fashon-text middle">
+            <p class="fashon-p">Janurary 2010</p>
+            <h2 class="fashon-h2">Amara Lopez</h2>
+            <p class="fashon-p2">
+              Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Quam
+              elementum pulvinar etiam non quam lacus suspendisse. Nunc sed
+              velit dignissim sodales ut eu sem. Pretium quam vulputate
+              dignissim suspendisse in est ante in nibh.
+            </p>
+            <button class="fashon-btn btn1">View case study</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="fashon-text">
+            <p class="fashon-p">September 2021</p>
+            <h2 class="fashon-h2">Priya Patel</h2>
+            <p class="fashon-p2">
+              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              Aenean vel elit scelerisque mauris. Gravida neque convallis a cras
+              semper auctor neque vitae. Habitasse platea dictumst quisque
+              sagittis. Gravida neque convallis a cras semper.
+            </p>
+            <button class="fashon-btn btn1">View case study</button>
+          </div>
+          <div class="fashon-img">
+            <img
+              class="fashon-imgs"
+              src="images/fashon3.png"
+              alt="priya patel"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Fine-Art">
+      <p class="fine-art-p">November 2022</p>
+      <h2 class="fine-art-h2">Victorian Collection</h2>
+      <div class="fine-art-div">
+        <img
+          class="fine-art-img"
+          src="images/fine-art.png"
+          alt="pictures of woman"
+        />
+      </div>
+      <div class="fine-btn">
+        <button class="fine-art-btn btn1">View case study</button>
+      </div>
+    </section>
+    <section id="Contact">
+      <h2 class="contact-h2">Capture the world with us</h2>
+      <p class="contact-p">
+        Libero justo laoreet sit amet cursus sit amet dictum sit. Consequat nisl
+        vel pretium lectus. In ornare quam viverra orci sagittis eu volutpat
+        odio. Euismod nisi porta lorem mollis aliquam ut porttitor leo ac felis.
+      </p>
+      <button class="btn1 contact-btn">Contact Us</button>
+    </section>
+    <footer class="footer">
+      <div class="bottom">
+        <img src="images/Navbar Logo.svg" alt="logo" />
+        <div class="nav-div">
+          <nav class="navigation">
+            <ul class="ul-item">
+              <li class="li-item">
+                <a class="a-itme" href="#Projects">Projects</a>
+              </li>
+              <li class="li-item">
+                <a class="a-itme" href="#Our-work">Portraits</a>
+              </li>
+              <li class="li-item">
+                <a class="a-itme" href="#Fashion">Fashion</a>
+              </li>
+              <li class="li-item">
+                <a class="a-itme" href="#Fine-Art">Fine Art</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-div">
+        <p class="footer-p">© 2023 Capture Studio. All rights reserved.</p>
+        <div class="icon-div">
+          <img src="images/facebook.svg" alt="facebook icon" />
+          <img src="images/insta.svg" alt="instagram logo" />
+          <img src="images/twitter.svg" alt="twitter logo" />
+          <img src="images/Vector.svg" alt="linked in logo" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
