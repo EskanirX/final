@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+
 
 @media only screen and (max-width: 1024px){
     .box-wraper{
@@ -45,9 +40,6 @@
     .text-h2{
         font-size: 70px;
         line-height: 75px;
-    }
-    .middle{
-        padding-left: 10px;
     }
     .text-div{
         padding-left: 15px;
@@ -125,7 +117,7 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        margin-left: 10px;
+        padding-left: 10px;
     }
     .Projects{
         display: -webkit-box;
@@ -165,12 +157,24 @@
                 align-items: center;
         border: none;
     }
+    .fashon-text{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-width: 350px;
+    }
     .contact-h2{
         font-size: 45px;
         line-height: 50px;
     }
     .header{
-        padding-inline: 10px;
+        padding-inline: 20px;
     }
     .text-h2{
         font-size: 40px;
